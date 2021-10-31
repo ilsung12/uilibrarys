@@ -1,5 +1,6 @@
 import "./App.css";
-import TailwindExample from "./Tailwindcss/Example";
+import Example from "./ReactSpring/Example";
+
 // import MaterialExample from './MaterialUI/MaterialExample';
 // import "semantic-ui-css/semantic.min.css";
 // import SemanticExample from "./ReactSemanticUI/SemanticExample.jsx";
@@ -11,7 +12,8 @@ import TailwindExample from "./Tailwindcss/Example";
 function App() {
   return (
     <>
-      <TailwindExample />
+      <Example />
+      {/* <TailwindExample /> */}
       {/* <MaterialExample /> */}
       {/* ReactSemanticUI */}
       {/* <ListExampleCelled />
